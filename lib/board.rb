@@ -35,7 +35,6 @@ class Board
       puts " Player 1 à toi de jouer !"
     else puts "Player 2 à toi de jouer !"
     end
-
 	end
 
   def victory?
