@@ -10,6 +10,11 @@ require 'boardcase'
 require 'application'
 require 'show'
 
+puts"                         -------------------------------------------------- "
+		puts"                         |    Saluuuut , bienvenue au jeu du Morpion      | "
+		puts"                         |                                                | "
+		puts"                         -------------------------------------------------- \n"
+
 
 puts " Joueur 1, Quel est ton prénom ?"
 print "> "
