@@ -7,7 +7,6 @@ require 'game'
 require 'player'
 require 'board'
 require 'boardcase'
-require 'show'
 
 puts"                         -------------------------------------------------- "
 		puts"                         |    Saluuuut , bienvenue au jeu du Morpion      | "
