@@ -23,7 +23,7 @@ class Board
     end
 		board
     @count_turn += 1
-    puts @count_turn
+    puts "Voici le résultat du tour #{@count_turn}"
     
     if count_turn % 2 == 0
       puts " Player 1 à toi de jouer !"
@@ -43,7 +43,6 @@ class Board
     	puts "Bravo Joueur 2 ! Tu as gagné !! Par contre Joueur 1, t'es nul." 
     	@status = "endgame"     
     end
-    #puts "Match nul, aucun gagnant" 
   end
 
   def board
