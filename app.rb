@@ -31,8 +31,6 @@ puts "#{player1.name}, c'est à ton tour de jouer !"
 
 
 
-
-    #TO DO : méthode faisant appelle aux méthodes des autres classes (notamment à l'instance de Board). Elle affiche le plateau, demande au joueur ce qu'il joue, vérifie si un joueur a gagné, passe au joueur suivant si la partie n'est pas finie.
      round = 0 
      
      	while round <= 9
