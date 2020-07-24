@@ -7,7 +7,6 @@ require 'game'
 require 'player'
 require 'board'
 require 'boardcase'
-require 'application'
 require 'show'
 
 puts"                         -------------------------------------------------- "
@@ -45,28 +44,6 @@ puts "#{player1.name}, c'est à ton tour de jouer !"
         	end	
       end
 
-      # def current_player(board)     
-      # 	turn_count(board) % 2 == 0 ? "X" : "O"  
-      # end
-
-
-
-
-
-# A CHAQUE TOUR AFFICHER LE PLATEAU DE JEU
-#puts "#{playeur}, c'est à ton tour de jouer !"
-
-# LES JOUEURS JOUENT A TOUR DE ROLE JUSQU'A CE QUE L'UN DES JOUEURS NE GAGNE OU QUE LE PLATEAU SOIT REMPLI
-# Faire une boucle et verifier s'il y a un gagnant ou que le plateau est rempli
-
-#S'IL Y A UN GAGNANT puts " Youpiii #{playeur}, tu as gagné !" SI MATCH NUL  puts " GAME OVER ! Match nul !! "
-# fin de la boucle
-# puts "Voulez-vous lancer une nouvelle partie ? oui ou non "
-# print ">"
-# response = gets.chomp
-# if response == "oui" ... elsif response == "non"
-
-
-#Application.new.perform
+    
 
 
